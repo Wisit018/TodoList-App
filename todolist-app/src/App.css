@@ -38,3 +38,39 @@ h1 {
   border: transparent;
   font-size: 1.2rem;
 }
+
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding: 0.25rem 1rem ;
+  background-color: #f7f7f7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.alert{
+  margin-bottom: 1.5rem;
+  height: 1.25rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.alert.error{
+  background: red;
+  color: #fff;
+  
+}
+
+.alert.success{
+  background: green;
+  color: #fff;
+}
+
+.btn{
+  font-size: 1.5rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
